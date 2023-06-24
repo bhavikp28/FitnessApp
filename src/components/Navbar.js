@@ -13,11 +13,11 @@ const Navbar = () => (
       direction="row"
       gap="40px"
       fontFamily="Alegreya"
-      fontSize="24px"
+      fontSize="18px" // Changed font size to 18px (25% smaller)
       alignItems="flex-end"
     >
-      <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Home</Link>
-      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' }}>Exercises</a>
+      <Link to="/" style={{ marginTop: '45px', textDecoration: 'none', width: '100px', textAlign: 'center', background: '#0e1d73', padding: '5px', fontSize: '20px', textTransform: 'none', color: 'white' }}>Home</Link>
+      <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '100px', textAlign: 'center', background: '#0e1d73', padding: '5px', fontSize: '20px', textTransform: 'none', color: 'white' }}>Exercises</a>
     </Stack>
   </Stack>
 );
